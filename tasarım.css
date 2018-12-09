@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+#banner {
+	background-color: #DC0B0E;
+	height: 180px;
+	width: 900px;
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	opacity:0.8;
+	}
+
+#sol {
+	position:absolute;
+	width: 150px;
+	height: 420px;
+	top: 205px;
+	left:150px;
+	background-color: #DBE;
+}
+#icerik{
+	position:absolute;
+	left:300px;
+	top:205px;
+	width:600px;
+	height:420px;
+	z-index:-1;
+	}
+#sag {
+	position:absolute;
+	width: 150px;
+	height: 420px;
+	top: 205px;
+	left:900px;
+	background-color: #DBE;
+}
+
+#footer {
+	position: absolute;
+	height: 30px;
+	width: 900px;
+	top: 625px;
+	left: 150px;
+	background-color: #DC0B0E;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	opacity:0.8;
+}
+.logo {
+	height: 150px;
+	width: 150px;
+	opacity:1;
+	margin: 10px;
+	
+}
+.slogan {
+	position: absolute;
+	left: 180px;
+	top: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: xx-large;
+	font-style: italic;
+	line-height: 70px;
+	font-weight: bolder;
+	color: #EFEFEF;
+	text-align:center;
+}
+.duyuru{
+	text-indent:5px;
+	width:140px;
+	height:auto;
+	background-color:#C8FDF4;
+	border:1px solid #F80E12;
+	margin:5px 1px;
+	text-align:center;
+	border-radius:10px;
+	font-weight:bold;
+	font-family:"comic sans ms";
+	font-size:12px;
+	}
